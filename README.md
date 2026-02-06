@@ -27,7 +27,7 @@ Open your terminal/command prompt and run:
 
 ```bash
 # Clone this repository
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+git clone https://github.com/tmquan2002/fake-news-detections-using-LLM
 
 # Navigate into the project folder
-cd YOUR_REPO_NAME
+cd fake-news-detections-using-LLM
