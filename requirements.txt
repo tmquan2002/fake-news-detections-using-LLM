@@ -1,0 +1,9 @@
+transformers
+torch
+scikit-learn
+pandas
+seaborn
+matplotlib
+datasets
+google-generativeai
+python-dotenv
