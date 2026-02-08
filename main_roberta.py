@@ -14,7 +14,7 @@ if not os.path.exists('images'):
 # --- STEP 1: LOAD DATA & EDA ---
 print("Loading datasets...")
 
-# Lấy 200 samples from hugging face databases
+# Get 200 samples from hugging face databases
 dataset = load_dataset("gonzaloa/fake_news", split="validation[:200]")
 df = pd.DataFrame(dataset)
 
@@ -37,7 +37,7 @@ plt.close()
 
 # --- STEP 2: LOAD MODEL ROBERTA ---
 model_name = "hamzab/roberta-fake-news-classification"
-print(f"\n⏳ Loading model RoBERTa: {model_name}...")
+print(f"\n Loading model RoBERTa: {model_name}...")
 classifier = pipeline("text-classification", model=model_name, tokenizer=model_name, truncation=True, max_length=512)
 print("Model ready!")
 
